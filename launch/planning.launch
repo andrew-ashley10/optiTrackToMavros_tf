@@ -1,0 +1,13 @@
+<launch>
+
+    <node name = "optiTrack_tf" pkg="optiTrack_tf" type="optiTrack_tf" output = "screen" >
+
+
+
+    <param name="execute_target" type="double" value="0.5" />
+        <param name="map_representation" value="OctomapMapRepresentation" />
+
+    </node>
+
+
+</launch>
